@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+
+    <groups>
+        <run>
+            <include name="regression"></include>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="com.xcart.mobile.customListeners.CustomListener"></listener>
+    </listeners>
+    <listeners>
+        <listener class-name="com.xcart.mobile.customListeners.CustomListener"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+
+    <test name="Regression Test" >
+        <classes>
+            <class name="com.xcart.mobile.testSuite.homePage.TopMenuTest"></class>
+            <class name="com.xcart.mobile.testSuite.hotDeals.HotDealsTest"></class>
+            <class name="com.xcart.mobile.testSuite.shopping.ShoppingTest"></class>
+        </classes>
+    </test>
+
+</suite>

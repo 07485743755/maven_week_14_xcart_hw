@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression Test"
+           tests="7"
+           failures="1"
+           errors="0"
+           skipped="3"
+           time="25.767">
+  <properties />
+            <testcase name="verifyUserShouldNavigateToContactUsPageSuccessfully" time="4.173" classname="com.xcart.mobile.testSuite.homePage.TopMenuTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [Contact us] but found [Contact us  !]"
+              >
+<![CDATA[java.lang.AssertionError: expected [Contact us] but found [Contact us  !]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.xcart.mobile.testSuite.homePage.TopMenuTest.verifyUserShouldNavigateToContactUsPageSuccessfully(TopMenuTest.java:65)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="verifyUserShouldNavigateToContactUsPageSuccessfully" time="0.0" classname="com.xcart.mobile.testSuite.homePage.TopMenuTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyUserShouldNavigateToContactUsPageSuccessfully" time="0.0" classname="com.xcart.mobile.testSuite.homePage.TopMenuTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyUserShouldNavigateToContactUsPageSuccessfully" time="0.0" classname="com.xcart.mobile.testSuite.homePage.TopMenuTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="verifyUserShouldNavigateToShippingPageSuccessfully" time="2.868" classname="com.xcart.mobile.testSuite.homePage.TopMenuTest" />
+                <testcase name="verifyUserShouldNavigateToNewPageSuccessfully" time="2.972" classname="com.xcart.mobile.testSuite.homePage.TopMenuTest" />
+                <testcase name="verifyUserShouldNavigateToComingSoonPageSuccessfully" time="2.973" classname="com.xcart.mobile.testSuite.homePage.TopMenuTest" />
+      
+</testsuite>

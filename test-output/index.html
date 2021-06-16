@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testsuite">
+              <span class="suite-name border-passed">testsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testsuite">
+                    <span>C:\Users\Nidhi\IdeaProjects\maven_week_14_xcart_hw\src\test\java\resources\runners\sanity.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testsuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testsuite">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testsuite" class="hide-methods passed suite-testsuite"> (hide)</a> <!-- hide-methods passed suite-testsuite -->
+                      <a href="#" panel-name="suite-testsuite" class="show-methods passed suite-testsuite"> (show)</a> <!-- show-methods passed suite-testsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-testsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.xcart.mobile.testSuite.hotDeals.HotDealsTest" hash-for-method="verifySaleProductsArrangeAlphabetically">verifySaleProductsArrangeAlphabetically</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.xcart.mobile.testSuite.hotDeals.HotDealsTest" hash-for-method="verifySaleProductsPriceArrangeLowToHigh">verifySaleProductsPriceArrangeLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.xcart.mobile.testSuite.shopping.ShoppingTest" hash-for-method="verifyThatUserShouldClearShoppingCartSuccessfully">verifyThatUserShouldClearShoppingCartSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.xcart.mobile.testSuite.shopping.ShoppingTest" hash-for-method="verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush">verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.xcart.mobile.testSuite.homePage.TopMenuTest" hash-for-method="verifyUserShouldNavigateToNewPageSuccessfully">verifyUserShouldNavigateToNewPageSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.xcart.mobile.testSuite.homePage.TopMenuTest" hash-for-method="verifyUserShouldNavigateToShippingPageSuccessfully">verifyUserShouldNavigateToShippingPageSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testsuite" class="panel testsuite">
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xcart.mobile.testSuite.hotDeals.HotDealsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySaleProductsArrangeAlphabetically">
+                  </a> <!-- verifySaleProductsArrangeAlphabetically -->
+                  <span class="method-name">verifySaleProductsArrangeAlphabetically</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySaleProductsPriceArrangeLowToHigh">
+                  </a> <!-- verifySaleProductsPriceArrangeLowToHigh -->
+                  <span class="method-name">verifySaleProductsPriceArrangeLowToHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xcart.mobile.testSuite.homePage.TopMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldNavigateToNewPageSuccessfully">
+                  </a> <!-- verifyUserShouldNavigateToNewPageSuccessfully -->
+                  <span class="method-name">verifyUserShouldNavigateToNewPageSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldNavigateToShippingPageSuccessfully">
+                  </a> <!-- verifyUserShouldNavigateToShippingPageSuccessfully -->
+                  <span class="method-name">verifyUserShouldNavigateToShippingPageSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xcart.mobile.testSuite.shopping.ShoppingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserShouldClearShoppingCartSuccessfully">
+                  </a> <!-- verifyThatUserShouldClearShoppingCartSuccessfully -->
+                  <span class="method-name">verifyThatUserShouldClearShoppingCartSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush">
+                  </a> <!-- verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush -->
+                  <span class="method-name">verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+        </div> <!-- panel testsuite -->
+        <div panel-name="test-xml-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nidhi\IdeaProjects\maven_week_14_xcart_hw\src\test\java\resources\runners\sanity.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testsuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.xcart.mobile.customListeners.CustomListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;sanity&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sanity Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.xcart.mobile.testSuite.homePage.TopMenuTest&quot;/&gt;
+      &lt;class name=&quot;com.xcart.mobile.testSuite.hotDeals.HotDealsTest&quot;/&gt;
+      &lt;class name=&quot;com.xcart.mobile.testSuite.shopping.ShoppingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Test --&gt;
+&lt;/suite&gt; &lt;!-- testsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySaleProductsArrangeAlphabetically</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySaleProductsPriceArrangeLowToHigh</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldClearShoppingCartSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToNewPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToShippingPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySaleProductsArrangeAlphabetically</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySaleProductsPriceArrangeLowToHigh</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldClearShoppingCartSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToNewPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToShippingPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySaleProductsArrangeAlphabetically</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToShippingPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testsuite');
+function tableData_testsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush')
+data.setCell(0, 2, 'com.xcart.mobile.testSuite.shopping.ShoppingTest')
+data.setCell(0, 3, 49253);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyThatUserShouldClearShoppingCartSuccessfully')
+data.setCell(1, 2, 'com.xcart.mobile.testSuite.shopping.ShoppingTest')
+data.setCell(1, 3, 29575);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySaleProductsArrangeAlphabetically')
+data.setCell(2, 2, 'com.xcart.mobile.testSuite.hotDeals.HotDealsTest')
+data.setCell(2, 3, 19353);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySaleProductsPriceArrangeLowToHigh')
+data.setCell(3, 2, 'com.xcart.mobile.testSuite.hotDeals.HotDealsTest')
+data.setCell(3, 3, 13492);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyUserShouldNavigateToNewPageSuccessfully')
+data.setCell(4, 2, 'com.xcart.mobile.testSuite.homePage.TopMenuTest')
+data.setCell(4, 3, 2952);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyUserShouldNavigateToShippingPageSuccessfully')
+data.setCell(5, 2, 'com.xcart.mobile.testSuite.homePage.TopMenuTest')
+data.setCell(5, 3, 2912);
+window.suiteTableData['testsuite']= { tableData: data, tableDiv: 'times-div-testsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-testsuite">
+              </div> <!-- times-div-testsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySaleProductsArrangeAlphabetically</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse hover and clicking on hot deal link By.xpath: (//li[@class='leaf has-sub']/child::span[text()='Hot deals'])[2]<br></span>
+                <span class="reporter-method-output">Getting text from hot deal drop down [[ChromeDriver: chrome on WINDOWS (d7d90e2ea78a76971910937f0d936292)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span] and compare it with hot deal drop down Sale<br></span>
+                <span class="reporter-method-output">Mouse hover and clicking on element[[ChromeDriver: chrome on WINDOWS (d7d90e2ea78a76971910937f0d936292)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]<br></span>
+                <span class="reporter-method-output">Getting Page title TextBy.xpath: //h1[@id='page-title']<br></span>
+                <span class="reporter-method-output">Mouse Hover on Sort by filter LinkBy.xpath: //div[@class='sort-box']<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (d7d90e2ea78a76971910937f0d936292)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (d7d90e2ea78a76971910937f0d936292)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (d7d90e2ea78a76971910937f0d936292)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (d7d90e2ea78a76971910937f0d936292)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (d7d90e2ea78a76971910937f0d936292)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Clicking on element [[ChromeDriver: chrome on WINDOWS (d7d90e2ea78a76971910937f0d936292)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]<br></span>
+                <span class="reporter-method-output">Getting List of Product name By.xpath: //div[@class='items-list items-list-products sale-products']//h5<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySaleProductsPriceArrangeLowToHigh</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse hover and clicking on hot deal link By.xpath: (//li[@class='leaf has-sub']/child::span[text()='Hot deals'])[2]<br></span>
+                <span class="reporter-method-output">Getting text from hot deal drop down [[ChromeDriver: chrome on WINDOWS (9fa7106be6d107f0631c3c726a7c3fa5)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span] and compare it with hot deal drop down Sale<br></span>
+                <span class="reporter-method-output">Mouse hover and clicking on element[[ChromeDriver: chrome on WINDOWS (9fa7106be6d107f0631c3c726a7c3fa5)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]<br></span>
+                <span class="reporter-method-output">Getting Page title TextBy.xpath: //h1[@id='page-title']<br></span>
+                <span class="reporter-method-output">Mouse Hover on Sort by filter LinkBy.xpath: //div[@class='sort-box']<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (9fa7106be6d107f0631c3c726a7c3fa5)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Price Low - High<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (9fa7106be6d107f0631c3c726a7c3fa5)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Price Low - High<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (9fa7106be6d107f0631c3c726a7c3fa5)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Price Low - High<br></span>
+                <span class="reporter-method-output">Clicking on element [[ChromeDriver: chrome on WINDOWS (9fa7106be6d107f0631c3c726a7c3fa5)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]<br></span>
+                <span class="reporter-method-output">Getting List of product price By.xpath: //div[@class='items-list items-list-products sale-products']//span[@class='price product-price']<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyUserShouldNavigateToNewPageSuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Getting text HomeFrom element [[ChromeDriver: chrome on WINDOWS (223c133e91c8e96c4733ff2dcb227b23)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text Hot dealsFrom element [[ChromeDriver: chrome on WINDOWS (223c133e91c8e96c4733ff2dcb227b23)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text From element [[ChromeDriver: chrome on WINDOWS (223c133e91c8e96c4733ff2dcb227b23)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text From element [[ChromeDriver: chrome on WINDOWS (223c133e91c8e96c4733ff2dcb227b23)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text ShippingFrom element [[ChromeDriver: chrome on WINDOWS (223c133e91c8e96c4733ff2dcb227b23)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text New!From element [[ChromeDriver: chrome on WINDOWS (223c133e91c8e96c4733ff2dcb227b23)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Clicking on element [[ChromeDriver: chrome on WINDOWS (223c133e91c8e96c4733ff2dcb227b23)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span]<br></span>
+                <span class="reporter-method-output">Getting page title text By.xpath: //h1[@id='page-title']<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse hover and clicking on hot deal link By.xpath: (//li[@class='leaf has-sub']/child::span[text()='Hot deals'])[2]<br></span>
+                <span class="reporter-method-output">Getting text from hot deal drop down [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span] and compare it with hot deal drop down Sale<br></span>
+                <span class="reporter-method-output">Mouse hover and clicking on element[[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]<br></span>
+                <span class="reporter-method-output">Mouse Hover on Sort by filter LinkBy.xpath: //div[@class='sort-box']<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Clicking on element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]<br></span>
+                <span class="reporter-method-output">Clicking add to cart button of avengers By.xpath: (//button[@type='button'])[4]<br></span>
+                <span class="reporter-method-output">Getting product verify message By.xpath: //li[contains(text(),'Product has been added to your cart')]<br></span>
+                <span class="reporter-method-output">Clicking on verify message close button By.xpath: //a[@class='close']<br></span>
+                <span class="reporter-method-output">Clicking on your cart button By.xpath: //div[@title='Your cart']<br></span>
+                <span class="reporter-method-output">Clicking on view your cart button</span>
+                <span class="reporter-method-output">Getting text from productQuantityVerifyLink By.xpath: //h1[@id='page-title']<br></span>
+                <span class="reporter-method-output">Change quantity on quantity link By.xpath: //input[contains(@id,'amount')]Quantity is2<br></span>
+                <span class="reporter-method-output">Getting text from productQuantityVerifyLink By.xpath: //h1[@id='page-title']<br></span>
+                <span class="reporter-method-output">Getting text from sub total link By.xpath: (//li[@class='subtotal'])[1]<br></span>
+                <span class="reporter-method-output">Getting text from total link By.xpath: (//span[@class='surcharge-cell'])[7]<br></span>
+                <span class="reporter-method-output">Clicking on go to checkout button By.xpath: //span[contains(text(),'Go to checkout')]<br></span>
+                <span class="reporter-method-output">Getting text from verify login text By.xpath: //h3[contains(text(),'Log in to your account')]<br></span>
+                <span class="reporter-method-output">Send email jemspeter526@yahoo.com to email fieldBy.xpath: //input[@id='email']<br></span>
+                <span class="reporter-method-output">Clicking on continue button By.xpath: //button[@class='btn  regular-button anonymous-continue-button submit']<br></span>
+                <span class="reporter-method-output">Getting text from secure checkout By.xpath: //h1[contains(text(),'Secure Checkout')]<br></span>
+                <span class="reporter-method-output">Enter first name Mark In first name field By.xpath: //input[@id='shippingaddress-firstname']<br></span>
+                <span class="reporter-method-output">Enter last name ZuckerBerg in last name field By.xpath: //input[@id='shippingaddress-lastname']<br></span>
+                <span class="reporter-method-output">Enter address 45,Cooper Street in address field By.xpath: //input[@id='shippingaddress-street']<br></span>
+                <span class="reporter-method-output">Send city name London In city field By.xpath: //input[@id='shippingaddress-city']<br></span>
+                <span class="reporter-method-output">Select country United Kingdom in country fieldBy.xpath: //select[@id='shippingaddress-country-code']</span>
+                <span class="reporter-method-output">Send text state London In state field By.xpath: //input[@id='shippingaddress-custom-state']<br></span>
+                <span class="reporter-method-output">Enter zip code 900456 in zip code field By.xpath: //input[@id='shippingaddress-zipcode']<br></span>
+                <span class="reporter-method-output">Clicking on create account check box By.xpath: //input[@id='create_profile']<br></span>
+                <span class="reporter-method-output">Send password J123450In password field By.xpath: //input[@id='password']<br></span>
+                <span class="reporter-method-output">Getting attribute value of title [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='shipping-rates']//li//div//label] compare it with delivery method Local shipping<br></span>
+                <span class="reporter-method-output">Getting attribute value of title [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='shipping-rates']//li//div//label] compare it with delivery method Local shipping<br></span>
+                <span class="reporter-method-output">Mouse hover and clicking on element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='shipping-rates']//li//div//label]<br></span>
+                <span class="reporter-method-output">Getting text Authorize.Net SIM from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='payments']//span]And compare with payment method COD<br></span>
+                <span class="reporter-method-output">Getting text Phone Ordering from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='payments']//span]And compare with payment method COD<br></span>
+                <span class="reporter-method-output">Getting text Fax Ordering from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='payments']//span]And compare with payment method COD<br></span>
+                <span class="reporter-method-output">Getting text Money Order from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='payments']//span]And compare with payment method COD<br></span>
+                <span class="reporter-method-output">Getting text Check from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='payments']//span]And compare with payment method COD<br></span>
+                <span class="reporter-method-output">Getting text COD from element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='payments']//span]And compare with payment method COD<br></span>
+                <span class="reporter-method-output">Mouse hover and click on element [[ChromeDriver: chrome on WINDOWS (9b4adb1ef06b6160bde2c42819661994)] -> xpath: //ul[@class='payments']//span]<br></span>
+                <span class="reporter-method-output">Getting text from Total link By.xpath: (//span[@class='surcharge-cell'])[6]<br></span>
+                <span class="reporter-method-output">Mouse hover and click on place order button By.xpath: //button[@class='btn regular-button regular-main-button place-order submit']<br></span>
+                <span class="reporter-method-output">Getting text from order confirmation By.xpath: //h1[@id='page-title']<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThatUserShouldClearShoppingCartSuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse hover and clicking on hot deal link By.xpath: (//li[@class='leaf has-sub']/child::span[text()='Hot deals'])[2]<br></span>
+                <span class="reporter-method-output">Getting text from hot deal drop down [[ChromeDriver: chrome on WINDOWS (067b95fd3a21b8ed6eff7d898b0e43b9)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span] and compare it with hot deal drop down Bestsellers<br></span>
+                <span class="reporter-method-output">Getting text from hot deal drop down [[ChromeDriver: chrome on WINDOWS (067b95fd3a21b8ed6eff7d898b0e43b9)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span] and compare it with hot deal drop down Bestsellers<br></span>
+                <span class="reporter-method-output">Mouse hover and clicking on element[[ChromeDriver: chrome on WINDOWS (067b95fd3a21b8ed6eff7d898b0e43b9)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]<br></span>
+                <span class="reporter-method-output">Mouse Hover on Sort by filter LinkBy.xpath: //div[@class='sort-box']<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (067b95fd3a21b8ed6eff7d898b0e43b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (067b95fd3a21b8ed6eff7d898b0e43b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (067b95fd3a21b8ed6eff7d898b0e43b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Getting text from element [[ChromeDriver: chrome on WINDOWS (067b95fd3a21b8ed6eff7d898b0e43b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a] and compare it with Name A - Z<br></span>
+                <span class="reporter-method-output">Clicking on element [[ChromeDriver: chrome on WINDOWS (067b95fd3a21b8ed6eff7d898b0e43b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]<br></span>
+                <span class="reporter-method-output">Clicking add to cart button of vinylIdilz By.xpath: //button[@class='btn  regular-button add-to-cart product-add2cart productid-13']<br></span>
+                <span class="reporter-method-output">Getting product verify message By.xpath: //li[contains(text(),'Product has been added to your cart')]<br></span>
+                <span class="reporter-method-output">Clicking on verify message close button By.xpath: //a[@class='close']<br></span>
+                <span class="reporter-method-output">Clicking on your cart button By.xpath: //div[@title='Your cart']<br></span>
+                <span class="reporter-method-output">Clicking on view your cart button</span>
+                <span class="reporter-method-output">Getting text from productQuantityVerifyLink By.xpath: //h1[@id='page-title']<br></span>
+                <span class="reporter-method-output">Clicking on empty your cart link By.xpath: //a[contains(text(),'Empty your cart')]<br></span>
+                <span class="reporter-method-output">Getting text from item deleted confirmation By.xpath: //li[contains(text(),'Item(s) deleted from your cart')]<br></span>
+                <span class="reporter-method-output">Getting text from productQuantityVerifyLink By.xpath: //h1[@id='page-title']<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyUserShouldNavigateToShippingPageSuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Getting text HomeFrom element [[ChromeDriver: chrome on WINDOWS (432016710adbd693c079035e34f6f955)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text Hot dealsFrom element [[ChromeDriver: chrome on WINDOWS (432016710adbd693c079035e34f6f955)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text From element [[ChromeDriver: chrome on WINDOWS (432016710adbd693c079035e34f6f955)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text From element [[ChromeDriver: chrome on WINDOWS (432016710adbd693c079035e34f6f955)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Getting text ShippingFrom element [[ChromeDriver: chrome on WINDOWS (432016710adbd693c079035e34f6f955)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span] and compare it with top tab By.xpath: //ul[@class='nav navbar-nav top-main-menu']//span<br></span>
+                <span class="reporter-method-output">Clicking on element [[ChromeDriver: chrome on WINDOWS (432016710adbd693c079035e34f6f955)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//span]<br></span>
+                <span class="reporter-method-output">Getting page title text By.xpath: //h1[@id='page-title']<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.xcart.mobile.testSuite.hotDeals.HotDealsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyBestSellersProductsArrangeByRates</span>
+                <br/>
+                <span class="ignored-method-name">verifyBestSellersProductsArrangeByZToA</span>
+                <br/>
+                <span class="ignored-method-name">verifySaleProductsArrangeByRates</span>
+                <br/>
+                <span class="ignored-method-name">verifyBestSellersProductsPriceArrangeHighToLow</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.xcart.mobile.testSuite.homePage.TopMenuTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyUserShouldNavigateToComingSoonPageSuccessfully</span>
+                <br/>
+                <span class="ignored-method-name">verifyUserShouldNavigateToContactUsPageSuccessfully</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xcart.mobile.testSuite.homePage.TopMenuTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldNavigateToNewPageSuccessfully</span>
+                <span class="method-start">3578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldNavigateToShippingPageSuccessfully</span>
+                <span class="method-start">10126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13038 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xcart.mobile.testSuite.hotDeals.HotDealsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySaleProductsArrangeAlphabetically</span>
+                <span class="method-start">16579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySaleProductsPriceArrangeLowToHigh</span>
+                <span class="method-start">40259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53751 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xcart.mobile.testSuite.shopping.ShoppingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserShouldClearShoppingCartSuccessfully</span>
+                <span class="method-start">57906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush</span>
+                <span class="method-start">91080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140333 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

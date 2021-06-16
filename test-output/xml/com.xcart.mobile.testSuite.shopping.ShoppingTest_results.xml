@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="104.779">
+  <properties />
+  
+            <testcase name="verifyThatUserShouldClearShoppingCartSuccessfully" time="0.0" classname="com.xcart.mobile.testSuite.shopping.ShoppingTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationsPlush" time="51.679" classname="com.xcart.mobile.testSuite.shopping.ShoppingTest" />
+                <testcase name="verifyThatUserShouldClearShoppingCartSuccessfully" time="29.788" classname="com.xcart.mobile.testSuite.shopping.ShoppingTest" />
+      
+</testsuite>

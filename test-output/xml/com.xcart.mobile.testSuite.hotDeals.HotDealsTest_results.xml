@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression Test"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="117.946">
+  <properties />
+  
+  
+            <testcase name="verifyBestSellersProductsPriceArrangeHighToLow" time="18.501" classname="com.xcart.mobile.testSuite.hotDeals.HotDealsTest" />
+                <testcase name="verifyBestSellersProductsArrangeByRates" time="21.472" classname="com.xcart.mobile.testSuite.hotDeals.HotDealsTest" />
+                <testcase name="verifyBestSellersProductsArrangeByZToA" time="27.856" classname="com.xcart.mobile.testSuite.hotDeals.HotDealsTest" />
+                <testcase name="verifySaleProductsArrangeAlphabetically" time="19.358" classname="com.xcart.mobile.testSuite.hotDeals.HotDealsTest" />
+                <testcase name="verifySaleProductsArrangeByRates" time="17.451" classname="com.xcart.mobile.testSuite.hotDeals.HotDealsTest" />
+                <testcase name="verifySaleProductsPriceArrangeLowToHigh" time="13.308" classname="com.xcart.mobile.testSuite.hotDeals.HotDealsTest" />
+      
+</testsuite>
